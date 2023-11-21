@@ -89,7 +89,7 @@
     TIMER_PIN_MAP( 7, PB4,  1, -1) \
     TIMER_PIN_MAP( 8, PB3,  1,  0)
 
-#define ADC3_DMA_OPT 0
+#define ADC1_DMA_OPT 1 //ADC3 DMA resources conflict with Motor3 and SPI1_RX
 
 #define MSP_UART SERIAL_PORT_UART5
 #define MAG_I2C_INSTANCE (I2CDEV_1)
