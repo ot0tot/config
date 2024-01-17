@@ -109,8 +109,8 @@
 
 /* CS1/CS2 pads for SPI3 connection:
  *
- * CS1 D04
- * CS2 E02
+ * CS1 PD4
+ * CS2 PE2
  */
 
 #define TIMER_PIN_MAPPING \
@@ -174,5 +174,4 @@
 #define GYRO_2_ALIGN_PITCH 1800
 #define DEFAULT_GYRO_TO_USE GYRO_CONFIG_USE_GYRO_1
 
-#define USE_MPU_DATA_READY_SIGNAL
 #define ENSURE_MPU_DATA_READY_IS_LOW

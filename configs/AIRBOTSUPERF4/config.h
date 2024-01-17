@@ -23,7 +23,7 @@
 
 #define FC_TARGET_MCU                       AT32F435M
 
-#define BOARD_NAME                          AIRBOTF435
+#define BOARD_NAME                          AIRBOTSUPERF4
 #define MANUFACTURER_ID                     AIRB
 
 #define USE_ACC
@@ -34,7 +34,7 @@
 
 #define USE_GYRO
 #define USE_GYRO_SPI_ICM42688P
-#define USE_SPI_GYRO
+#define USE_ACCGYRO_LSM6DSV16X
 
 #define USE_FLASH
 #define USE_FLASH_M25P16
