@@ -113,7 +113,6 @@
 // #define AFATFS_USE_INTROSPECTIVE_LOGGING
 
 
-#define USE_ADC
 #define ADC_INSTANCE                    ADC1
 #define ADC1_DMA_OPT                    1  // DMA 2 Stream 4 Channel 0 (compat default)
 
