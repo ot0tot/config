@@ -100,7 +100,6 @@
 
 #define ADC2_DMA_OPT        1
 
-#define USE_ADC
 #define ADC_INSTANCE ADC2
 #define BARO_SPI_INSTANCE SPI2
 #define FLASH_SPI_INSTANCE SPI3
@@ -114,7 +113,6 @@
 #define PINIO1_CONFIG 129
 #define PINIO1_BOX 40
 
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
 #define GYRO_1_ALIGN_YAW 900
