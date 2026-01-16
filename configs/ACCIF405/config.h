@@ -26,6 +26,7 @@
 #define BOARD_NAME        ACCIF405
 #define MANUFACTURER_ID   CUST
 
+
 #define USE_ACC
 #define USE_GYRO
 
