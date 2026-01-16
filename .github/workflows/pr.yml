@@ -161,6 +161,15 @@ jobs:
           echo "--- Running check on $TARGET ---"
           make EXTRA_FLAGS=-Werror CONFIG=$TARGET BETAFLIGHT_CONFIG=../config
 
+      - name: Debug - List build output files
+        if: always()
+        working-directory: ./betaflight
+        run: |
+          echo "=== Searching for build artifacts ==="
+          find . -type f \( -name "*.hex" -o -name "*.bin" -o -name "*.elf" \) -ls
+          echo "=== Contents of obj directory ==="
+          ls -laR obj/ || echo "obj/ directory not found"
+
       - name: Upload Firmware Artifact
         uses: actions/upload-artifact@v4
         if: success()
